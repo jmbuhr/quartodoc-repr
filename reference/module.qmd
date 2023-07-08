@@ -1,3 +1,15 @@
 # module { #example.module }
 
 `module`
+
+## Functions
+
+| Name | Description |
+| --- | --- |
+| [main](#example.module.main) | This is a function |
+
+### main { #example.module.main }
+
+`module.main()`
+
+This is a function

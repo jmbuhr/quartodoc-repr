@@ -39,7 +39,7 @@
     "href": "reference/module.html",
     "title": "module",
     "section": "",
-    "text": "module\nmodule\n\n\n\n\n Back to top"
+    "text": "module\n\n\n\n\n\nName\nDescription\n\n\n\n\nmain\nThis is a function\n\n\n\n\n\nmodule.main()\nThis is a function"
   },
   {
     "objectID": "reference/index.html#module-with-example-class",
@@ -54,5 +54,12 @@
     "title": "Function reference",
     "section": "",
     "text": "Does this work?\n\n\n\nothermodule"
+  },
+  {
+    "objectID": "reference/module.html#functions",
+    "href": "reference/module.html#functions",
+    "title": "module",
+    "section": "",
+    "text": "Name\nDescription\n\n\n\n\nmain\nThis is a function\n\n\n\n\n\nmodule.main()\nThis is a function"
   }
 ]

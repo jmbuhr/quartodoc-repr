@@ -5,6 +5,7 @@
 class MyClass():
     """This is a class
 
+    Hello world.
 
     Attributes
     ----------
@@ -31,5 +32,6 @@ class MyClass():
 
 
 def main():
+    """This is a function"""
     print("We are in module.py")
 

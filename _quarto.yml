@@ -72,6 +72,7 @@ quartodoc:
           name: module
           members:
             - MyClass
+            - main
     - title: Another module with an example class
       desc: Does this work?
       contents:
