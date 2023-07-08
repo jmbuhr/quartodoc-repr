@@ -1,0 +1,12 @@
+website:
+  sidebar:
+  - contents:
+    - reference/index.qmd
+    - contents:
+      - reference/module.qmd
+      section: Module with example class
+    - contents:
+      - reference/othermodule.qmd
+      section: Another module with an example class
+    id: reference
+  - id: dummy-sidebar

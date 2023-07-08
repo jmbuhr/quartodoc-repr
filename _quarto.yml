@@ -1,0 +1,82 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+    - reference
+
+
+website:
+  page-navigation: true
+  site-url: https://jmbuhr.de/quartodoc-repr
+  repo-url: https://github.com/jmbuhr/quartodoc-repr
+  repo-actions: [edit, issue]
+  reader-mode: true
+  back-to-top-navigation: true
+  navbar:
+    background: light
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            url:  https://github.com/jmbuhr/quartodoc-repr
+          - text: Report a Bug
+            url:  https://github.com/jmbuhr/quartodoc-repr/issues/new
+    left:
+      - file: index.qmd
+        text: Home
+      - file: reference/index.qmd
+        text: Reference
+
+# tell quarto to read the generated sidebar
+metadata-files:
+  - _sidebar.yml
+
+execute:
+  warning: false
+  echo: true
+
+format:
+  html:
+    toc: true
+    number-depth: 0
+    theme:
+      light:
+      - flatly
+      dark:
+      - darkly
+    code-copy: true
+
+filters:
+  - interlinks
+
+interlinks:
+  sources:
+    numpy:
+      url: https://numpy.org/doc/stable/
+    python:
+      url: https://docs.python.org/3.10/
+
+
+quartodoc:
+  package: example
+  sidebar: _sidebar.yml
+  style: pkgdown
+  dir: reference
+
+  sections:
+    - title: Module with example class
+      desc: Does this work?
+      contents:
+        - kind: auto
+          name: module
+          members:
+            - MyClass
+    - title: Another module with an example class
+      desc: Does this work?
+      contents:
+        - kind: auto
+          name: othermodule
+          members:
+            - OtherClass
+

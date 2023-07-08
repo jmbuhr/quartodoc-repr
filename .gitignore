@@ -1,0 +1,6 @@
+
+.quarto
+.venv
+*.egg-info
+*.pyc
+

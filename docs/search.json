@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Quartodoc Reprex",
+    "section": "",
+    "text": "Quartodoc Reprex\nThis is a reproducible example for quartooc.\nTo run:\npython -m venv .venv\nsource .venv/bin/activate\npip install -r requirements.txt\nmake setup-docs\nmake preview\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "reference/othermodule.html",
+    "href": "reference/othermodule.html",
+    "title": "othermodule",
+    "section": "",
+    "text": "othermodule\nothermodule\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "reference/index.html",
+    "href": "reference/index.html",
+    "title": "Function reference",
+    "section": "",
+    "text": "Does this work?\n\n\n\nmodule\n\n\n\n\n\n\n\nDoes this work?\n\n\n\nothermodule"
+  },
+  {
+    "objectID": "reference/index.html#example-classes",
+    "href": "reference/index.html#example-classes",
+    "title": "Function reference",
+    "section": "",
+    "text": "Example classes that work\n\n\n\nmodule"
+  },
+  {
+    "objectID": "reference/index.html#example-class-that-doesnt",
+    "href": "reference/index.html#example-class-that-doesnt",
+    "title": "Function reference",
+    "section": "",
+    "text": "Example Class that doesn’t work\n\n\n\nothermodule"
+  },
+  {
+    "objectID": "reference/module.html",
+    "href": "reference/module.html",
+    "title": "module",
+    "section": "",
+    "text": "module\nmodule\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "reference/index.html#module-with-example-class",
+    "href": "reference/index.html#module-with-example-class",
+    "title": "Function reference",
+    "section": "",
+    "text": "Does this work?\n\n\n\nmodule"
+  },
+  {
+    "objectID": "reference/index.html#another-module-with-an-example-class",
+    "href": "reference/index.html#another-module-with-an-example-class",
+    "title": "Function reference",
+    "section": "",
+    "text": "Does this work?\n\n\n\nothermodule"
+  }
+]

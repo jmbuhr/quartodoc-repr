@@ -1,0 +1,17 @@
+# Function reference
+
+## Module with example class
+
+Does this work?
+
+| | |
+| --- | --- |
+| [module](module.qmd#example.module) |  |
+
+## Another module with an example class
+
+Does this work?
+
+| | |
+| --- | --- |
+| [othermodule](othermodule.qmd#example.othermodule) |  |
